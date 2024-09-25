@@ -9,7 +9,7 @@ import { SparkedLine } from '../component';
 const Ecommerce = () => {
   return (
     <div>
-      
+      <p> Working on the E-commerce Section Page.....</p>
     </div>
   );
 }
