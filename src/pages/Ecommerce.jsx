@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsCurrencyDollar } from 'react-icons/bs';
-import { GoPrimitiveDot } from 'react-icons/go';
+import { GoDotFill } from 'react-icons/go';  // or GoDotFill
 
 // Ensure these paths and filenames are correct and match your actual directory structure
 
@@ -67,8 +67,19 @@ const Ecommerce = () => {
   })}
 </div>
       </div>
-    <div >
-
+    <div className='flex gap-10 flex-wrap justify-center' >
+<div className="bg-white dark:text-gray-200 dark:bg-secondary-bg m-3 p-4
+rounded-2xl md:w-780">
+<div className="flex justify-between">
+  <p className='font-semibold text-xl text-red-500'>Revenue Updates</p>
+  <div className="flex items-center gap-4">
+   <p className='flex items-center gap-2 text-green-500 hover:drop-shadow-xl'>
+    <span > { <GoDotFill /> }</span>
+    <span>Expense </span>
+   </p>
+  </div>
+</div>
+</div>
     </div>
     </div>
   );
