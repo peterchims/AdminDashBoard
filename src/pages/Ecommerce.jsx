@@ -77,6 +77,24 @@ rounded-2xl md:w-780">
     <span > { <GoDotFill /> }</span>
     <span>Expense </span>
    </p>
+   <p className='flex items-center gap-2 text-purple-200 hover:drop-shadow-xl'>
+    <span > { <GoDotFill /> }</span>
+    <span> Budget  </span>
+   </p>
+  </div>
+</div>
+<div className="mt-10 flex gap-6 flex-wrap justify-center">
+  <div className="border-r-1 border-color m-4 pr-10">
+    <div>
+      <p>
+        <span className='text-3xl font-semibold text-pink-600'>$56,890 </span>
+        <span className='p-1.5 hover:drop-shadow-xl text-white bg-green-400
+        cursor-pointer rounded-full ml-3 text-xs'>$50%</span>
+        </p>
+        <p className='text-gray-500'>
+        BUDGET
+        </p>
+    </div>
   </div>
 </div>
 </div>
