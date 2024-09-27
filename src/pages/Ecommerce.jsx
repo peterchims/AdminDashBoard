@@ -7,7 +7,7 @@ import { GoDotFill } from 'react-icons/go';  // or GoDotFill
 import { Line } from '../component/Charts/Line';
 import { Pie } from '../component/Charts/Pie';
 import Button from '../component/Button';
-import { SparkedLine } from '../component/Charts/SparkedLine';  // Ensure the file exists as SparkedLine.jsx or adjust the name
+import SparkedLine from '../component/Charts/SparkedLine';
 
 import { earningData, SparklineAreaData, ecomPieChartData } from '../data/dummy'
 import { useStateContext } from '../contexts/ContentProvider';
@@ -91,9 +91,29 @@ rounded-2xl md:w-780">
         <span className='p-1.5 hover:drop-shadow-xl text-white bg-green-400
         cursor-pointer rounded-full ml-3 text-xs'>$50%</span>
         </p>
-        <p className='text-gray-500'>
+        <p className='text-gray-500 mt-1'>
         BUDGET
         </p>
+    </div>
+    <div className='mt-8'>
+      <p>
+        <span className='text-3xl font-semibold text-pink-600'>$36,890 </span>
+        
+        </p>
+        <p className='text-gray-500 mt-1'>
+     Expense
+        </p>
+    </div>
+    <div className="mt-5">
+      <SparkedLine 
+      currentColor="blue"
+      id="line-sparkline"
+      type="Line"
+      height="80px"
+      width="250px"
+      data={SparklineAreaData}
+      color="blue "
+      />
     </div>
   </div>
 </div>

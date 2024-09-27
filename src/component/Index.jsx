@@ -11,7 +11,7 @@ export { default as UserProfile} from './UserProfile';
 
 // Charts Section
 export { default as ChatHeader} from './ChatHeader';
-export { default as SparkedLine} from './Charts/SparkedLine';
+export { default as Sparked } from '../component/Charts/SparkedLine';
 export { default as Line} from './Charts/Line';
 export { default as Pie} from './Charts/Pie';
 export { default as Stacked} from './Charts/Stacked';
