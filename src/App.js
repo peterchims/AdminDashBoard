@@ -3,7 +3,7 @@ import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import {TooltipComponent} from '@syncfusion/ej2-react-popups'
 import { Navbar, Footer, Sidebar, ThemeSettings } from './component/Index';
-import {Ecommerce, Orders, Calender, Employee, Stacked, Pyramid, Customers, Kanban, Area, Pie
+import {Ecommerce, Orders, Calendar, Employee, Stacked, Pyramid, Customers, Kanban, Area, Pie
   ,Financial,ColorPicker,Bar,Line,ColorMapping, Editor
 } from './pages/Index';
 
@@ -67,7 +67,7 @@ style={{background:'red',borderRadius:'5px'}}>
         {/* Apps */}
         <Route path='/kanban' element={<Kanban />} />
         <Route path='/editor' element={<Editor />} />
-        <Route path='/calender' element={<Calender />} />
+        <Route path='/calender' element={<Calendar />} />
         <Route path='/color-picker' element={<ColorPicker />} />
        
 

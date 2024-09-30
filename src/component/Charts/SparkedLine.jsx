@@ -1,5 +1,8 @@
 import React from 'react'
 import {  SparklineComponent, Inject, SparklineTooltip } from '@syncfusion/ej2-react-charts';
+// import '@syncfusion/ej2-react-charts/styles/material.css';
+
+
 
 const SparkedLine = ({ id, height, width, color, data, type, currentColor }) => {
   return (

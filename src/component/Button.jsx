@@ -7,7 +7,9 @@ const Button = ({bgColor, color, size, text, borderRadius}) => {
 type='button' 
 style={{backgroundColor:bgColor, color, borderRadius}}
 className={`text=${size} p-3 hover:drop-shadow-xl`}> {text} </button>
+    {/* <p>Ngo9BigBOggjHTQxAR8/V1NDaF5cWGNCf1NpR2RGfV5ycEVHYVZVR3xdRU0SNHVRdkdnWXZcd3VUQmZeUUZzWkI=</p> */}
     </div>
+    
   )
 }
 

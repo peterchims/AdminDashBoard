@@ -13,6 +13,6 @@ export { default as Line} from './Chart/Line';
 export { default as Pie} from './Chart/Pie';
 export { default as Pyramid} from './Chart/Pyramid';
 export { default as Stacked} from './Chart/Stacked';
-export { default as Calender} from './Calender';
+export { default as Calendar } from './Calender';
 
 
