@@ -11,6 +11,7 @@ import SparkedLine from '../component/Charts/SparkedLine';
 
 import { earningData, SparklineAreaData, ecomPieChartData } from '../data/dummy'
 import { useStateContext } from '../contexts/ContentProvider';
+import { Stacked } from './Index';
 
 
 
@@ -115,6 +116,21 @@ rounded-2xl md:w-780">
       color="blue "
       />
     </div>
+    <div className="mt-10">
+      <Button 
+      color="white"
+      bgColor="blue"
+      text="Download Report"
+      borderRadius="10px"
+      />
+    </div>
+  </div>
+  <div>
+    <Stacked 
+    width="320px"
+    height="360px"
+    
+    />
   </div>
 </div>
 </div>
