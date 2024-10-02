@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Line = () => {
+const Lines = () => {
   return (
     <div>
-      
+      Line 
     </div>
   )
 }
 
-export default Line
+export default Lines
