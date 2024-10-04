@@ -7,7 +7,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 import avatar from '../data/avatar.jpg';
 import Cart from '../component/Cart';
-import Chat from '../component/Chat';
+import Chat from './LineChart';
 import Notification from '../component/Notification';
 import UserProfile from '../component/UserProfile';
 
